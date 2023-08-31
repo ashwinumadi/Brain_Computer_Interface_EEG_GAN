@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.button {
+  background-color: transparent;
+  border-color : black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 75px;
+  width: 400px;
+}
+
+</style>
+<body style="background-color:dodgerblue">
+
+<center>
+	<form action="/start/submit" id="textform" method="post">
+	    <br><br><br><br><br><br><br><br><br><br><br><br>
+	    <label for="cars" style = "font-size: 40px !important;">Choose shape and colour : </label>
+		<select name="shape" id="shape" style="width: 150px !important; min-width: 150px; max-width: 150px; height: 50px !important; test-align:center !important; font-size: 20px !important;">	
+    				<option value="circle">Circle</option>
+				<option value="heart">Heart</option>
+    				<option value="rhombus">Rhombus</option>
+				<option value="square">Square</option>
+				<option value="star">Star</option>
+    				<option value="triangle">Triangle</option>
+  			
+		</select>
+  		<select name="colour" id="colour" style="width: 150px !important; min-width: 150px; max-width: 150px; height: 50px !important; test-align:center !important; font-size: 20px !important;">	
+    				<option value="red">Red</option>
+				<option value="green">Green</option>
+    				<option value="blue">Blue</option>
+  			
+		</select>
+
+	   
+	    <br><br><br><br><br>
+
+	    <input type="submit" name="Sender" value="submit" class="button">
+	    <input type="submit" style="visibility:hidden" name="action" value="view">
+	</form>
+	</center>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.button {
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 75px;
+  width: 400px;
+}
+
+</style>
+<body style="background-color:dodgerblue">
+
+<center>
+	<h1> EEG plot and original image</h1>
+	<br>
+	<img src="/static/image/blah.png" alt="Namma figure" width="600" height="500">
+	<form action="/start/submit/reconstruct" id="textform" method="post, get">
+	    <input type="submit" name="reconstruct" value="reconstruct" class="button">
+	</form>
+
+
+</center>
+
+</body>
+</html>
