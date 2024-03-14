@@ -1,43 +1,5 @@
 import pickle
-import os
-import numpy as np
-import numpy as np
 from sklearn.model_selection import train_test_split
-import keras
-from keras.datasets import mnist
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
-from keras.preprocessing.image import ImageDataGenerator
-from keras import backend as K
-import os
-import cv2
-import glob
-import numpy as np
-import tensorflow as tf
-import pandas as pd
-import numpy as np
-from keras.utils import to_categorical
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Reshape
-from sklearn.model_selection import train_test_split
-from numpy import array, reshape, mean, std
-from scipy.stats import zscore
-from sklearn.preprocessing import OneHotEncoder
-from keras.optimizers import Adam
-from keras.callbacks import EarlyStopping
-from sklearn.metrics import r2_score
-import matplotlib.pyplot as plt
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-from sklearn.decomposition import FastICA
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
-from sklearn.metrics import f1_score
-from sklearn.metrics import cohen_kappa_score
-from sklearn.metrics import roc_auc_score
-from sklearn.metrics import confusion_matrix   
 
 open_file = open("600s.pkl", "rb")
 d = pickle.load(open_file)
